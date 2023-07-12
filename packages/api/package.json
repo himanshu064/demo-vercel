@@ -1,0 +1,21 @@
+{
+    "name": "@lantern/api",
+    "version": "1.0.1",
+    "description": "api package for lantern finance monorepo",
+    "main": "index.ts",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "build": "tsc"
+    },
+    "keywords": [],
+    "author": "Rapidzz Solutions",
+    "license": "ISC",
+    "dependencies": {
+      "@lantern/interfaces": "*",
+      "cors": "^2.8.5",
+      "firebase": "^9.22.2"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.22"
+    }
+  }
